@@ -57,7 +57,7 @@ class Services extends React.Component {
           style={{
             maxHeight:
               this.context.height !== 'auto'
-                ? this.context.height * 0.8
+                ? this.context.height * 0.75
                 : 'inherit',
           }}
         >
@@ -99,102 +99,84 @@ class Services extends React.Component {
       return (
         <Row>
           <Col md={4} className="service">
-            <AnimationContainer delay={200} animation="fadeInLeft fast">
+            <AnimationContainer delay={100} animation="fadeInLeft fast">
             <div className="icon">
                  <Icon icon={pytorchIcon} size={70} />
               </div>
               <h4>PyTorch</h4>
-              <p>
-               An open source machine learning framework.
-              </p>              
+              {/* <p>An open source machine learning framework.</p>               */}
             </AnimationContainer>
           </Col>
           <Col md={4} className="service border-side">
-            <AnimationContainer delay={400} animation="fadeInDown fast">
+            <AnimationContainer delay={200} animation="fadeInDown fast">
               <div className="icon">
                 <Icon icon={tensorflowIcon} />
               </div>
               <h4>Tensorflow</h4>
-              <p>
-                An end-to-end open source machine learning platform 
-              </p>
+              {/* <p>An end-to-end open source machine learning platform </p> */}
             </AnimationContainer>
           </Col>
           <Col md={4} className="service">
-            <AnimationContainer delay={600} animation="fadeInRight fast">
+            <AnimationContainer delay={300} animation="fadeInRight fast">
               <div className="icon">
                 <Icon icon={pythonIcon} />
               </div>
               <h4>Python</h4>
-              <p>
-                A programming language that lets you work quickly more effectively
-              </p>
+              {/* <p>A programming language that lets you work quickly more effectively</p> */}
             </AnimationContainer>
           </Col>
           <Col md={4} className="service">
-            <AnimationContainer delay={1000} animation="fadeInLeft fast">
+            <AnimationContainer delay={300} animation="fadeInLeft fast">
               <div className="icon">
                 <Icon icon={machineLearning} />
               </div>
               <h4>Machine Learning</h4>
-              <p>
-                Algorithms that improve through experience and data
-              </p>
+              {/* <p>Algorithms that improve through experience and data</p> */}
             </AnimationContainer>
           </Col>
           <Col md={4} className="service border-side">
-            <AnimationContainer delay={800} animation="fadeInUp fast">
+            <AnimationContainer delay={300} animation="fadeInUp fast">
               <div className="icon">
                 <Icon icon={machineLearningModel} />
               </div>
               <h4>Deep Learning</h4>
-              <p>
-                Systems vaguely inspired by the biological neural networks
-              </p>
+              {/* <p>Systems vaguely inspired by the biological neural networks</p> */}
             </AnimationContainer>
           </Col>
           <Col md={4} className="service">
-            <AnimationContainer delay={1200} animation="fadeInRight fast">
+            <AnimationContainer delay={300} animation="fadeInRight fast">
             <div className="icon">
               <Icon icon={eyeIcon} />
               </div>
               <h4>Computer Vision</h4>
-              <p>
-                Gain high-level understanding from digital images or videos
-              </p>
+              {/* <p>Gain high-level understanding from digital images or videos</p> */}
             </AnimationContainer>
           </Col>
           <Col md={4} className="service">
-            <AnimationContainer delay={1200} animation="fadeInLeft fast">
+            <AnimationContainer delay={300} animation="fadeInLeft fast">
             <div className="icon">
               <Icon icon={languageSolid} />
               </div>
               <h4>Natural Language Processing</h4>
-              <p>
-                Processing and analyze large amounts of natural language data
-              </p>
+              {/* <p>Processing and analyze large amounts of natural language data</p> */}
             </AnimationContainer>
           </Col>
           <Col md={4} className="service border-side">
-            <AnimationContainer delay={400} animation="fadeInDown fast">
+            <AnimationContainer delay={300} animation="fadeInDown fast">
               <div className="icon">
                 <Icon icon={chartLineData} />
               </div>
               <h4>Data Science</h4>
-              <p>
-                Gain insights and knowledge from data
-              </p>
+              {/* <p>Gain insights and knowledge from data</p> */}
             </AnimationContainer>
           </Col>
           <Col md={4} className="service border-side">
-            <AnimationContainer delay={400} animation="fadeInRight fast">
+            <AnimationContainer delay={300} animation="fadeInRight fast">
               <div className="icon">
                 <Icon icon={devTo} />
               </div>
               <h4>Software Engineering</h4>
-              <p>
-                Application of engineering approaches to the development of software
-              </p>
+              {/* <p>Application of engineering approaches to the development of software</p> */}
             </AnimationContainer>
           </Col>
         </Row>
@@ -207,7 +189,7 @@ class Services extends React.Component {
       return (
         <Container>
           <Col md={3}>
-            <AnimationContainer delay={100} animation="fadeIn fast">
+            <AnimationContainer delay={30} animation="fadeIn fast">
               <Counter
                 icon={faSmileBeam}
                 value={3}
@@ -218,7 +200,7 @@ class Services extends React.Component {
             </AnimationContainer>
           </Col>
           <Col md={3}>
-            <AnimationContainer delay={100} animation="fadeIn fast">
+            <AnimationContainer delay={30} animation="fadeIn fast">
               <Counter
                 icon={faPizzaSlice}
                 value={127}
@@ -229,7 +211,7 @@ class Services extends React.Component {
             </AnimationContainer>
           </Col>
           <Col md={3}>
-            <AnimationContainer delay={100} animation="fadeIn fast">
+            <AnimationContainer delay={30} animation="fadeIn fast">
               <Counter
                 icon={faQuoteRight}
                 value={6}
@@ -240,7 +222,7 @@ class Services extends React.Component {
             </AnimationContainer>
           </Col>
           <Col md={3}>
-            <AnimationContainer delay={100} animation="fadeIn fast">
+            <AnimationContainer delay={30} animation="fadeIn fast">
               <Counter
                 icon={faCode}
                 value={73841}
