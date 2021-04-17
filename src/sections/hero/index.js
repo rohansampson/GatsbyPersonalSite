@@ -34,7 +34,7 @@ class Hero extends React.Component {
                   loop: true,
                 }}
               />
-              <a href="../../../../content/Rohan Sampson_CV_Apr21.pdf" target="_blank" rel="noopener noreferrer" download>
+              <a href="https://drive.google.com/open?id=11FFnxm-3jR5gQ4M50rUjyluwGQVbJ6iH" target="_blank" rel="noopener noreferrer" download>
                 <button className="hover-button">
                     <span>Download CV</span>
                 </button>
